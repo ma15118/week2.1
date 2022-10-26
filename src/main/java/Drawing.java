@@ -1,5 +1,3 @@
-package org.example;
-
 import java.awt.*;
 import java.awt.event.WindowAdapter;
 import java.awt.event.WindowEvent;
@@ -8,9 +6,12 @@ public class Drawing extends Canvas {
     // A private field called f of AWT class Frame..
     private Frame f;
     Point p=new Point(200,200);
+    Point r=new Point(100,100);
     Color c=new Color(0x992266);// The RGB number comprises three bytes: red, green and blue
 
     Circle news=new Circle(p,c,30);
+
+    Rect new_r= new Rect(r,c,10,40);
 
     public void paint(Graphics g){}
     // The constructor
