@@ -8,4 +8,5 @@ public class Shape {
         pos = initPos;
         this.col = col;
     }
+
 }
